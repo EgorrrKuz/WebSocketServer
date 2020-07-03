@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z9MIhw/hmXkg3WFIIk36u4ZXnXcHvcgfeh5ULxg5hvNZmBjoN3jtxSWd4TVpCa/qf1X/0S5cTZC1nLyYTiORUA==",
+  "success": true,
+  "projectFilePath": "/home/egor/Documents/tradeBot/backend/WebSocket/WebSocket/WebSocket.csproj",
+  "expectedPackageFiles": [
+    "/home/egor/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

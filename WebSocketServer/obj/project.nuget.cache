@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7QvupOcJYVYvxtgbioqM9BdNXuljDLBJeH4XVqNzJE65oXjKH3GKwCGJOHBYP9LCogvsAnBoFzokniAySyuUvQ==",
+  "dgSpecHash": "wxQFZV4cgB+YdxnLHNFJ9eJvyRnBRw4m2MWC5bACi+j4k+4aybK6gP9/XSzMko8pxkoU2g+aEynQYdrjhH2KhQ==",
   "success": true,
-  "projectFilePath": "/home/egor/Desktop/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
+  "projectFilePath": "/home/egor/Документы/tradeBot/backend/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
   "expectedPackageFiles": [
     "/home/egor/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
   ],

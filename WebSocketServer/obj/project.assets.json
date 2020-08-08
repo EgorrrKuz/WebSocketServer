@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/egor/Desktop/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
+      "projectUniqueName": "/home/egor/Документы/tradeBot/backend/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
       "projectName": "WebSocketServer",
-      "projectPath": "/home/egor/Desktop/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
+      "projectPath": "/home/egor/Документы/tradeBot/backend/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
       "packagesPath": "/home/egor/.nuget/packages/",
-      "outputPath": "/home/egor/Desktop/WebsocketServer/WebSocketServer/obj/",
+      "outputPath": "/home/egor/Документы/tradeBot/backend/WebsocketServer/WebSocketServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/egor/.nuget/NuGet/NuGet.Config"

@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/egor/Desktop/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
+    "projectUniqueName": "/home/egor/Документы/tradeBot/backend/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
     "projectName": "WebSocketServer",
-    "projectPath": "/home/egor/Desktop/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
-    "outputPath": "/home/egor/Desktop/WebsocketServer/WebSocketServer/obj/",
+    "projectPath": "/home/egor/Документы/tradeBot/backend/WebsocketServer/WebSocketServer/WebSocketServer.csproj",
+    "outputPath": "/home/egor/Документы/tradeBot/backend/WebsocketServer/WebSocketServer/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"

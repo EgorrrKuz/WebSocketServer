@@ -28,30 +28,9 @@ namespace WebSocketServer
             webSocketOptions.AllowedOrigins.Add("https://localhost");
 
             app.UseWebSockets(webSocketOptions);
-            
-            
-            // app.Use(async (context, next) =>
-            // {
-            //     if (context.Request.Path == "/data")
-            //     {
-            //         if (context.WebSockets.IsWebSocketRequest)
-            //         {
-            //             System.Net.WebSockets.WebSocket webSocket = await context.WebSockets.AcceptWebSocketAsync();
-            //             await SendData.Send(context, webSocket);
-            //         }
-            //         else
-            //         {
-            //             context.Response.StatusCode = 400;
-            //         }
-            //     }
-            //     else
-            //     {
-            //         await next();
-            //     }
-            // });
 
             app.UseWebSockets();
-            app.MapSockets("/ws", serviceProvider.GetService<WebSocketMessageHandler>());
+            app.MapSockets("/predictions", serviceProvider.GetService<WebSocketMessageHandler>());
             app.UseStaticFiles();
         }
     }

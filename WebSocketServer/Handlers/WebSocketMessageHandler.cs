@@ -1,11 +1,9 @@
+using System;
 using System.Net.WebSockets;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
-using WebSocketServer.Middlewares;
 using WebSocketServer.Models;
 using WebSocketServer.SocketManager;
-using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace WebSocketServer.Handlers
 {
@@ -36,27 +34,7 @@ namespace WebSocketServer.Handlers
 
         public override async Task Receive(WebSocket socket, WebSocketReceiveResult result, byte[] buffer)
         {
-            string socketId = Connections.GetId(socket);
-            Message msg;
-
-            try
-            {
-                msg = JsonConvert.DeserializeObject<Message>(Encoding.UTF8.GetString(buffer, 0, result.Count));
-            }
-            catch (JsonException)
-            {
-                msg = new Message();
-            }
-
-            string message = "";
-            
-            if (msg.Type == "GetEngines")
-            {
-                await RestClient.GetEngines();
-                message = JsonSerializer.Serialize(RestClient.Engines);
-            }
-
-            await SendMessage(socketId, message);
+            await SendMessageToAll(Encoding.UTF8.GetString(buffer, 0, result.Count));
         }
     }
 }
